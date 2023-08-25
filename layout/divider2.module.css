@@ -1,0 +1,37 @@
+.divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #343C77;
+    padding: 55px 155px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.text {
+    color: #FFFFFF;
+    padding-bottom: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .divider {
+        padding: 52px 32px;
+    }
+
+ }
+ 
+ @media only screen and (max-width: 576px) {
+    .divider {
+       align-items: start;
+    }
+ 
+ }

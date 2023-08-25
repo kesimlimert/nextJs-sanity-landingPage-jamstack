@@ -1,0 +1,144 @@
+.footer {
+    padding: 80px 155px 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    padding-bottom: 62px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 66px;
+}
+
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 205px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #233049;
+    padding-bottom: 17px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 17px;
+    color: #233049;
+    font-style: normal;
+    padding-bottom: 19px;
+}
+
+.subTitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: #233049;
+    padding-bottom: 28px;
+    padding-top: 10px;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trademark1 {
+    color: #233049;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 256px;
+}
+
+.trademark2 {
+    color: #233049;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 183px;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.privacy {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.logo img {
+    max-height: 2.4rem;
+    padding-bottom: 32px;
+}
+
+.menu p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    color: #222136;
+}
+
+.column p:hover {
+    transition: all .4s ease;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.mobileText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #233049;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer {
+        padding: 72px 32px 32px;
+        align-items: normal;
+    }
+
+    .mainColumn {
+        padding-right: 150px;
+        align-items: normal;
+    }
+
+    .column {
+        align-items: normal;
+    }
+
+    .trademark1 {
+        padding-right: 90px;
+    }
+
+    .trademark2 {
+        padding-right: 50px;
+    }
+
+}

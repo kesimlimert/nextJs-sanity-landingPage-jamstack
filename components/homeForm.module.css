@@ -1,0 +1,108 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 1128px;
+    row-gap: 40px;
+    padding-top: 76px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4C4B5C;
+    letter-spacing: -0.03em;
+}
+
+.input {
+    background: #E9E9E9;
+    height: 48px;
+    width: 549px;
+    border: none;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    height: 48px;
+    background: #C20713;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    letter-spacing: -0.03em;
+    line-height: 103%;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    transform: translate3D(0, -1px, 0) scale(1.1);
+    transition: all .4s ease;
+    box-shadow: -12px -12px 24px #FFFFFF, 12px 12px 24px #B4C1D5;
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
+
+.form label span {
+    color: #C20713;
+}
+
+
+@media only screen and (max-width: 992px) {
+   .row div {
+    text-align: left;
+   }
+
+   .form {
+    width: 100%;
+   }
+
+   .input {
+    width: 100%;
+   }
+
+   .row{
+     column-gap: 24px;
+   }
+ }
+ 
+ @media only screen and (max-width: 576px) {
+
+    .form {
+        padding-top: 52px;
+        width: 100%;
+    }
+
+    .buttonRow {
+        justify-content: start;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+   .row {
+        flex-direction: column;
+        row-gap: 32px;
+   }
+ }
